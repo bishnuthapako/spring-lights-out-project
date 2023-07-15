@@ -16,7 +16,47 @@ import "./Cell.css";
 
 function Cell({ flipCellsAroundMe, isLit }) {
   const classes = `Cell ${isLit ? "Cell-lit" : ""}`;
-  return <td className={classes} onClick={flipCellsAroundMe} />;
+  // return <td className={classes} onClick={flipCellsAroundMe} />;
+  return (
+  <>
+    <div class="row">
+      <div class="col border">Cell</div>
+      <div class="col border">Cell</div>
+      <div class="col border">Cell</div>
+      <div class="col border">Cell</div>
+      <div class="col border">Cell</div>
+    </div>
+    <div class="row">
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+    </div>
+    <div class="row">
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+    </div>
+    <div class="row">
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+    </div>
+    <div class="row">
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+      <div className="col border">Cell</div>
+    </div>
+
+  </>
+  )
 }
 
 export default Cell;

@@ -6,9 +6,11 @@ import "./App.css";
 
 function App() {
   return (
-      <div className="App">
+     <div className="container d-flex align-items-center justify-content-center" style={{height: "100vh"}}>
+           <div className="App bg-secondary">
         <Board />
       </div>
+     </div>
   );
 }
 

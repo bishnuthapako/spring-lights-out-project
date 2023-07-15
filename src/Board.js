@@ -68,6 +68,9 @@ function Board({ nrows, ncols, chanceLightStartsOn }) {
   // make table board
 
   // TODO
+  return (
+    <Cell />
+  )
 }
 
 export default Board;
